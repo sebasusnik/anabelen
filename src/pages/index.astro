@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import ExternalLink from "../components/ExternalLink.astro";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -12,27 +13,31 @@ import Layout from "../layouts/Layout.astro";
       <li>Based in Buenos Aires, ARG.</li>
       <li>Bachelor's degree in graphic design at <a
 				href="https://www.fadu.uba.ar/"
-				class="underline hover:text-gray-700">FADU</a></li>
+				target="_blank"
+				class="underline hover:text-gray-700">FADU<ExternalLink/></a></li>
       <li>
         Interested in designing clean and experimental digital products with a
         strong focus on business.
       </li>
       <li>Now: Lead product designer at <a
 				href="https://lemon.me/"
-				class="underline hover:text-gray-700">Lemon</a></li>
+				target="_blank"
+				class="underline hover:text-gray-700">Lemon<ExternalLink/></a></li>
       <li>
         Before:
         <ul class="list-inside list-disc ml-4">
           <li class="list-none before:content-['↳']">
             UX designer at <a
               href="https://mercadolibre.com/"
-              class="underline hover:text-gray-700">Mercado Libre</a
+							target="_blank"
+              class="underline hover:text-gray-700">Mercado Libre<ExternalLink/></a
             >
           </li>
           <li class="list-none before:content-['↳']">
             UX designer at <a
               href="https://consultr.net/"
-              class="underline hover:text-gray-700">ConsultR</a
+							target="_blank"
+              class="underline hover:text-gray-700">ConsultR<ExternalLink/></a
             >
           </li>
         </ul>
@@ -44,19 +49,22 @@ import Layout from "../layouts/Layout.astro";
       <li>
         <a
           href="https://www.linkedin.com/in/anabelenv/"
-          class="underline hover:text-gray-700">LinkedIn</a
+					target="_blank"
+          class="underline hover:text-gray-700">LinkedIn<ExternalLink/></a
         >
       </li>
       <li>
         <a
           href="https://x.com/_rawpower"
-          class="underline hover:text-gray-700">X</a
+					target="_blank"
+          class="underline hover:text-gray-700">X<ExternalLink/></a
         >
       </li>
       <li>
         <a
           href="https://open.spotify.com/user/1199976656?si=ffecb73703554db3"
-          class="underline hover:text-gray-700">Spotify</a
+					target="_blank"
+          class="underline hover:text-gray-700">Spotify<ExternalLink/></a
         >
       </li>
     </ul>
