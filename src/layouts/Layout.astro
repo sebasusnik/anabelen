@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,11 +16,13 @@
     />
     <meta name="generator" content={Astro.generator} />
     <title>Ana Varela</title>
+    <script type="module" src="/src/ascii-art.js"></script>
   </head>
   <body class="font-mono text-sm text-[#1D1D1D] container mx-auto px-6">
     <slot />
   </body>
 </html>
+
 <style is:global>
   @tailwind base;
   @tailwind components;
